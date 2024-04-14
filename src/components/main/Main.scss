@@ -1,0 +1,5 @@
+main {
+  top: var(--header-height);
+  height: calc(100vh - var(--header-height) - var(--footer-height));
+  overflow: auto;
+}
